@@ -1,0 +1,21 @@
+.container{
+    display: block;
+    height: 100%;
+    width: 500px;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 15rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    /* margin-bottom: 10px; */
+    /* margin-top: 10px; */
+    /* text-align: center; */
+    background-color: rgb(241, 225, 204);
+    height: 60%;
+    width: 50%;
+    color: red;
+
+  }
