@@ -3,49 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABC</title>
+    <title>ABCD Game</title>
+
     <link rel="stylesheet" href="./style.css">
-    <script>
-        function randomString() {  
-            //define a variable consisting alphabets in small and capital letter  
-    var characters = "ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";  
-              
-            //specify the length for the new string  
-    var lenString = 1;  
-    var randomstring = '';  
-  
-            //loop to select a new character in each iteration  
-    for (var i=0; i<lenString; i++) {  
-        var rnum = Math.floor(Math.random() * characters.length);  
-        randomstring += characters.substring(rnum, rnum+1);  
-    }  
-  
-             //display the generated string   
-    document.getElementById("randomfield").innerHTML = randomstring;  
-}  
-    </script>
 </head>
+
 <body>
     <div class="container">
-    
-    <div>  
-        <h3 style="color: green"> Random Text Generator </h2>  
-        <h3> Click the button to generate a random Text </h3>  
-          
-        <form name="randomform">  
-       <p> <input type="button" value="Generate Random String" onClick="randomString();">  </p>
-        <br><br>  
-        <b><h2 id="randomfield" style="color: red"> </h2></b>  
-        </form>  
-          
-    </div>  
-    <h3> Press any key to generate a random text</h3>
-        <h1>Hi</h1>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./index.js"></script>
 
-    </div>     
+    <h4>Random Text Generator</h4>
+
+    <h3>Click below box to generate random text</h3>
+
+    <h1>Hi</h1>
+
+    <h3>Press Any Key to generate random text in below box</h3>
+
+    <h2>Hi</h2> 
+
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script src="./index.js"></script>
 
 </body>
+
 </html>
