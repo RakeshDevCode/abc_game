@@ -20,7 +20,7 @@ function randomString() {
 var characters = "ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";  
      
    //specify the length for the new string  
-var lenString = 7;  
+var lenString = 1;  
 var randomstring = '';  
 
    //loop to select a new character in each iteration  
